@@ -8,9 +8,9 @@ This project performs an exploratory analysis of the FRED-QD (Federal Reserve Ec
    
 ### Methods Used
 * Descriptive Statistics
-* Trend visualization
+* Trend Visualization
 * Correlation Analysis
-* Linear regressions
+* Linear Regressions
 * Time-Series Visualization
 
 ### List of Platforms/Languages
@@ -42,22 +42,29 @@ cd QTM302W-group4
 ```
 3. Raw Data is being kept [here](data/2025-09-QD.csv) within this repo.
     
-4. Data processing/transformation scripts are being kept [here](data/EDA_notebook.Rmd)
+4. Data processing/transformation scripts are being kept [here](Revised_EDA_Notebook.Rmd)
 
 ## Directory Structure
 ```bash
 QTM302W-group4/
 │
 ├── data/
-│ └── 2025-09-QD.csv # Raw FRED-QD dataset
+│   └── 2025-09-QD.csv                 # Raw FRED–QD dataset
 │
-├── EDA_final.Rproj # RStudio project file
-├── EDA_notebook.Rmd # Main analysis notebook (RMarkdown)
-├── activate.R # renv environment activation script
-├── renv.lock # Package version lockfile for reproducibility
-├── settings.json # R project / environment settings
+├── figures/                           # Generated plots from the analysis
+│   ├── gdp_proportion-1.png
+│   ├── gdp_proportion-2.png
+│   ├── govtspending_vs_housing_start....png
+│   ├── heatmap-1.png
+│   ├── housing_starts_southern-1.png
+│   ├── housing_starts_w_6months_aver....png
+│   ├── rational_behaviors-1.png
+│   └── the_trade_gap-1.png
 │
-└── README.md # Project documentation
+├── Revised_EDA_Notebook.Rmd           # Updated analysis notebook (RMarkdown)
+├── Revised_EDA_Notebook.html          # Rendered HTML output of the notebook
+└── README.md                          # Project documentation
+
 ```
 
 ## Contact Info
