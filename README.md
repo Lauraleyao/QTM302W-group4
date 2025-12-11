@@ -51,7 +51,7 @@ QTM302W-group4/
 ├── data/
 │   └── 2025-09-QD.csv                 # Raw FRED–QD dataset
 │
-├── figures/                           # Generated plots from the analysis
+├── figures/                           # Figures generated from the analysis
 │   ├── gdp_proportion-1.png
 │   ├── gdp_proportion-2.png
 │   ├── govtspending_vs_housing_start....png
@@ -61,9 +61,16 @@ QTM302W-group4/
 │   ├── rational_behaviors-1.png
 │   └── the_trade_gap-1.png
 │
-├── Revised_EDA_Notebook.Rmd           # Updated analysis notebook (RMarkdown)
-├── Revised_EDA_Notebook.html          # Rendered HTML output of the notebook
-└── README.md                          # Project documentation
+├── renv/                              # R package environment (for reproducibility)
+│   ├── activate.R
+│   ├── settings.json
+│   └── .gitignore
+│
+├── Revised_EDA_Notebook.Rmd            # Main analysis notebook (RMarkdown)
+├── Revised_EDA_Notebook.html           # Rendered HTML report
+├── renv.lock                           # Exact package versions snapshot
+└── README.md                           # Project documentation
+
 
 ```
 
